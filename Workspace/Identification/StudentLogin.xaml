@@ -1,0 +1,42 @@
+﻿<Window x:Class="Coursework.Workspace.Identification.StudentLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework.Workspace.Identification"
+        mc:Ignorable="d"
+            Title="StudentLoginWindow" Height="350" Width="300" Closed="Window_Closed">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/design/styles/customtextbox.xaml"/>
+                <ResourceDictionary Source="/design/styles/TransparentButtonStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Student Login" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20"/>
+        <TextBlock Grid.Row="1" x:Name="username" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260"
+             Height="30" Margin="0,10,20,0" Text="Введіть своє прізвище, ім'я та по-батькові: " FontSize="13"/>
+        <TextBox Grid.Row="2" Grid.RowSpan="2" x:Name="usernameInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260"
+                Height="50" Margin="5" TextWrapping="Wrap" Background="CornflowerBlue" FontSize="25"/>
+        <TextBlock Grid.Row="4" x:Name="_groupNumber" HorizontalAlignment="Center" VerticalAlignment="Center" Width="250"
+                Height="30" Margin="0,10,20,0" Text="Введіть номер групи: " FontSize="13"/>
+        <TextBox Grid.Row="5" Grid.RowSpan="2" x:Name="groupNumberInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="260"
+                Height="50" Margin="5" TextWrapping="Wrap" Background="Yellow" FontSize="25"/>
+        <Button Style="{StaticResource TransparentButtonStyle}" x:Name="_btnLogin"
+            Content="Вхід" HorizontalAlignment="Left" VerticalAlignment="Top"
+            FontFamily="Cascadia Mono ExtraLight" FontSize="20" Margin="50,0,0,0"
+            Grid.Row="7" Width="200" Height="30" Click="_btnLogin_Click"/>
+    </Grid>
+</Window>

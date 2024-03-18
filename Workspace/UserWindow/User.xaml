@@ -1,0 +1,109 @@
+﻿<Window x:Class="Coursework.Workspace.UserWindow.User"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework.Workspace.UserWindow"
+        mc:Ignorable="d"
+            Title="UserWindow" Height="450" Width="800" Closed="Window_Closed">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/design/styles/customtextbox.xaml"/>
+                <ResourceDictionary Source="/design/styles/TransparentButtonStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid x:Name="_gridUser">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock x:Name="_txtHello1" Grid.Column="0" Grid.ColumnSpan="3" Text="Surname"
+                       HorizontalAlignment="Center" VerticalAlignment="Center"
+                       FontSize="15" FontFamily="Cascadia Mono ExtraLight" Margin="10"/>
+            <Button x:Name="_buttonShowInfo" Grid.Column="3" Content="Mini-profile" FontFamily="Cascadia Mono ExtraLight"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="40"
+                Style="{StaticResource TransparentButtonStyle}" Click="ButtonShowInfo_Click"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel x:Name="_stackPanel1" Grid.Column="0">
+                <Label x:Name="_labelName" Content="Назва білету" Padding="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Height="15" Width="{Binding ActualWidth, ElementName=_stackPanel1}" FontSize="15"
+                   FontFamily="Cascadia Mono ExtraLight"/>
+                <TextBox x:Name="_textBoxIssue" HorizontalAlignment="Center" VerticalAlignment="Center"
+                     Width="{Binding ActualWidth, ElementName=_stackPanel1}" Margin="0,15,0,0" Padding="0,0,0,0" Height="25" FontSize="15"
+                     Style="{StaticResource CustomTextBoxStyle}" FontFamily="Cascadia Mono ExtraLight" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <StackPanel x:Name="_stackPanel2" Grid.Column="1">
+                <Label x:Name="_labelDiscepline" Content="Назва дисципліни" Padding="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Height="15" Width="{Binding ActualWidth, ElementName=_stackPanel2}" FontSize="15"
+                   FontFamily="Cascadia Mono ExtraLight"/>
+                <TextBox x:Name="_textBoxDiscepline" HorizontalAlignment="Center" VerticalAlignment="Center"
+                     Width="{Binding ActualWidth, ElementName=_stackPanel2}" Margin="0,15,0,0" Padding="0,0,0,0" Height="25" FontSize="15"
+                     Style="{StaticResource CustomTextBoxStyle}" FontFamily="Cascadia Mono ExtraLight" TextWrapping="Wrap"/>
+            </StackPanel>
+
+            <StackPanel x:Name="_stackPanel3" Grid.Column="2">
+                <Label x:Name="_labelCount" Content="Кількість питань" Padding="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Height="15" Width="{Binding ActualWidth, ElementName=_stackPanel3}" FontSize="15"
+                   FontFamily="Cascadia Mono ExtraLight"/>
+                <TextBox x:Name="_textBoxCount" HorizontalAlignment="Center" VerticalAlignment="Center"
+                     Width="{Binding ActualWidth, ElementName=_stackPanel3}" Margin="0,15,0,0" Padding="0,0,0,0" Height="25" FontSize="15"
+                     Style="{StaticResource CustomTextBoxStyle}" FontFamily="Cascadia Mono ExtraLight" TextWrapping="Wrap"/>
+            </StackPanel>
+            <Button x:Name="_buttonAdd" Grid.Column="3" Content="Add" FontFamily="Cascadia Mono ExtraLight"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="40"
+                Style="{StaticResource TransparentButtonStyle}" Click="ButtonAdd_Click"/>
+        </Grid>
+
+        <Grid x:Name="_gridViewIssue" Grid.Row="2">
+            <ListView x:Name="_listView" HorizontalAlignment="Center" VerticalAlignment="Center"
+                  Width="{Binding ActualWidth, ElementName=_gridViewIssue}" Height="290" MouseDoubleClick="_listView_MouseDoubleClick">
+                <ListView.View>
+                    <GridView x:Name="_gridView">
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+        <Grid x:Name="_gridDownPanel" Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="_buttonSelect" Grid.Column="0" Content="Select" FontFamily="Cascadia Mono ExtraLight"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="40"
+                Style="{StaticResource TransparentButtonStyle}" Click="ButtonSave_Click"/>
+            <Button x:Name="_buttonView" Grid.Column="1" Content="View" FontFamily="Cascadia Mono ExtraLight"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="40"
+                Style="{StaticResource TransparentButtonStyle}" Click="ButtonView_Click"/>
+            <Button x:Name="_buttonStart" Grid.Column="2" Content="Start" FontFamily="Cascadia Mono ExtraLight"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Width="80" Height="40"
+                Style="{StaticResource TransparentButtonStyle}" Click="ButtonStart_Click"/>
+
+        </Grid>
+    </Grid>
+</Window>

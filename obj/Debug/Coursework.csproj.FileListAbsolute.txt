@@ -1,0 +1,42 @@
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.csproj.AssemblyReference.cache
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\Coursework.exe.config
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\Coursework.exe
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\Coursework.pdb
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\EntityFramework.dll
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\EntityFramework.SqlServer.dll
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\Newtonsoft.Json.dll
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\EntityFramework.xml
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\EntityFramework.SqlServer.xml
+E:\Coding\Learn\Управління проектами\Coursework\bin\Debug\Newtonsoft.Json.xml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Identification\StudentLogin.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\App.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework_MarkupCompile.cache
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework_MarkupCompile.lref
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Identification\StudentLogin.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.g.resources
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.Properties.Resources.resources
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.csproj.GenerateResource.cache
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.csproj.CoreCompileInputs.cache
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.csproj.Up2Date
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.exe
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.pdb
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\MainWindow.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\MainWindow.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.Migrations.InitialCreate.resources
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.Migrations.EditStudent.resources
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Design\Styles\CustomTabItem.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Design\Styles\CustomTextBox.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Design\Styles\TransparentButtonStyle.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Administrator\Admin.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Administrator\Admin.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Data interaction\Add.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Data interaction\Edit.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Data interaction\Add.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Data interaction\Edit.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\UserWindow\User.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\UserWindow\User.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Identification\StudentInfo.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\Identification\StudentInfo.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\UserWindow\ViewWindow.g.cs
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Workspace\UserWindow\ViewWindow.baml
+E:\Coding\Learn\Управління проектами\Coursework\obj\Debug\Coursework.Migrations.EditDatabase1.resources
